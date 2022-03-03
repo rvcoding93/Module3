@@ -37,13 +37,44 @@ p{
 
 h1{
     text-align: center;
+    color:rgb(158, 161, 233);
+    text-shadow: 1px 1.5px black;
 }
 h4{
     text-align: center;
     color: royalblue;
+    text-shadow: .5px .5px black;
 }
 div{
     text-align: center;
     font-size: 18px;
 
 }
+
+.video-container{
+    width: 100vw;
+    height: 100vh;
+  }
+      
+  iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+  }
+
+  @media (min-aspect-ratio: 16/9) {
+    .video-container iframe {
+      /* height = 100 * (9 / 16) = 56.25 */
+      height: 56.25vw;
+    }
+  }
+      
+  @media (max-aspect-ratio: 16/9) {
+    .video-container iframe {
+      /* width = 100 / (9 / 16) = 177.777777 */
+      width: 177.78vh;
+    }
+  }
