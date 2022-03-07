@@ -82,6 +82,39 @@ div{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+@font-face {
+    font-family:"retrofont";
+    src: url(retroFont.ttf);
+}
+
+.retrofont{
+    font-family: retrofont;
+}
+
+@font-face {
+    font-family:"digitalfont";
+    src: url(digitalFont.ttf);
+}
+
+.digitalfont{
+    font-family: digitalfont;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
 
 /* ****use below if inserting yt video***** */
 /* .video-container{

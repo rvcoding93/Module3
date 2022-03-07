@@ -1,0 +1,229 @@
+/* <video autoplay loop muted>
+<source src="matrixbackground.mp4"type="video/mp4">
+</video> */
+
+/*menu bar class customizations for css*/
+.topbar{
+    background-color: blueviolet;
+    overflow: hidden;
+    border-radius: 15px;
+    
+}
+
+@font-face {
+    font-family:"retrofont";
+    src: url(retroFont.ttf);
+}
+
+.retrofont{
+    font-family: retrofont;
+}
+
+@font-face {
+    font-family:"digitalfont";
+    src: url(digitalFont.ttf);
+}
+
+.digitalfont{
+    font-family: digitalfont;
+}
+
+.child{
+    background-color: rgba(0, 0, 0, 0.247); 
+    margin: 5px;
+    width: 75%; 
+    border-radius: 15px;
+}
+
+.topbar a {
+    float: left;
+    color: #0de5de;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid rgb(175, 43, 43);
+    margin: 20px;
+    padding: 20px;
+    word-spacing: 25px;
+}
+
+.topbar a:hover{
+    background-color:#ddd;
+    color:black;
+}
+
+.topbar a.active{
+    background-color: #d63da8;
+    color: white
+}
+
+p1{
+    font-size: 16px;
+    background: rgba(74, 180, 180, 0.6); 
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+}
+
+p{
+    font-size: 16px;
+    background: rgba(39, 50, 50, 0.4); 
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+    color:rgb(0, 213, 255);
+    text-shadow: 1px 1.5px black;
+}
+h2{
+    text-align: center;
+    color: rgb(178, 92, 195);
+    text-shadow: .5px .5px black;
+}
+
+h3{
+    text-align: center;
+    color:rgb(213, 74, 226);
+    text-shadow: 1px 1.5px black;}
+
+h4{
+    text-align: center;
+    color:rgb(0, 213, 255);
+    text-shadow: 1px 1.5px black;}
+
+div{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.infobox {
+    background-color: rgba(49, 117, 149, 0.514);
+    width: 300px;
+    border: 3px solid rgb(0, 0, 0,.3);
+    padding: 50px;
+    margin: 50px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rectangle {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(158, 65, 158);
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 5px;
+    background-image: url(https://schoolvoice.com/blog/wp-content/uploads/2017/10/90s-tech-crazes-students-didnt-know-existed-2.jpg);
+    background-position: center;
+}
+
+.rectangle1 {
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color: rgb(182, 28, 105);
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 5px;
+    background-image: url(https://mocah.org/uploads/posts/4501195-cassette-90s-gold-vintage-simple-background-red-background.jpg);
+    background-position: center;
+}
+  .contentbox{
+    display: inline-block; 
+    text-align: center;
+    width: 55%;
+  }
+
+  body{
+    background-color: rgb(82, 68, 107);
+    background-image: url('https://media1.giphy.com/media/10zxDv7Hv5RF9C/giphy.gif?cid=790b7611a15a4f51726637a84eb270c31bfd20e7c97011cb&rid=giphy.gif&ct=g');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid > div {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px;
+    background-image: url(https://st2.depositphotos.com/6480696/12165/v/950/depositphotos_121654660-stock-illustration-retro-vintage-80s-or-90s.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 95%; */
+    color: white;
+    text-shadow: black 1px 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid {
+    display: grid;
+    padding: 8px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    width: 100%;
+    align-content: center;
+}
+section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 4px;
+    grid-auto-flow: column;
+    
+    
+}
+section1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 4px;
+    grid-auto-flow: column;
+    
+}
+.grid1{
+    display: grid;
+    padding: 8px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template:auto;
+    width: 100%;
+    place-items: center;
+    display: inline-block; 
+    text-align: center;
+    width: 50%;
+    border-radius: 15px;
+
+
+}
+
+/* ****use below if inserting yt video***** */
+/* .video-container{
+    width: 100vw;
+    height: 100vh;
+  }
+      
+  iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+  }
+
+  @media (min-aspect-ratio: 16/9) {
+    .video-container iframe {
+      /* height = 100 * (9 / 16) = 56.25 */
+      /* height: 56.25vw;
+    }
+  }
+      
+  @media (max-aspect-ratio: 16/9) {
+    .video-container iframe {
+      /* width = 100 / (9 / 16) = 177.777777 */
+      /* width: 177.78vh;
+    } */
+  
