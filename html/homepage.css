@@ -1,0 +1,24 @@
+.grid{
+    display: grid;
+    margin: 100px;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    border: 1px;
+    border-color: red;
+    margin: 12%;
+    /* background-repeat: no-repeat; */
+    }
+
+#imagebox {
+    align-content: stretch;
+    /* border-color: rgb(225, 255, 0);
+    border: 20px; */
+    /* background-color: rgb(0, 0, 0); */
+    background-image: url(https://64.media.tumblr.com/2b600fdb01c961b68bdb4dbb5772824a/4faa64ec2007ee93-2e/s500x750/3368704c19769d6b03ea0ef6c4eb0e76ad5bb760.gifv); 
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 30px;
+    margin: 15px;
+    }
+
+ 
