@@ -1,0 +1,39 @@
+.grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    margin: 22.5%;
+    padding: 10fr;
+    box-sizing: border-box 100px 100px;
+    border: white;
+    justify-content: center;
+    }
+
+/* #imagebox {
+    background-image: url(https://64.media.tumblr.com/2b600fdb01c961b68bdb4dbb5772824a/4faa64ec2007ee93-2e/s500x750/3368704c19769d6b03ea0ef6c4eb0e76ad5bb760.gifv); 
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 30px;
+    box-sizing: border-box;
+
+    margin: 10px;
+    } */
+
+#bdbox{
+    width: 500px;
+    height: 500px;
+    border: 5px rgb(30, 255, 0);
+    padding: 50px;
+    background-color: white;
+    margin: 1fr;
+    justify-content: center;
+
+}
+
+#middlebox {
+    align-content: center;
+    margin: 10%;
+    box-sizing: border-box;
+    background-color: orange;
+    justify-content: center;
+}
