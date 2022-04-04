@@ -1,0 +1,26 @@
+/*
+
+**App Name: OVER HERE**
+AI matches faces submitted by users, contacts user in the event of a potential match
+    - user must submit valid contact info
+    - agree to privacy policy similar to fb, twitter, etc. WE own the metadata
+        -  this metadata in the future could be monetized (we would not charge ukranians for obvious reasons)
+    - blockchain could be implemented to establish IDs/Tokens for every user
+        - the token could be sent as an authoization for personal info, the recipient could use this to open a branch 
+        of communication and reconnect with their search recipient.
+    - 
+
+
+
+
+
+
+
+    80k uncapped salary paid training
+    solutions architect AWS CERT
+    CCIE Cisco
+    Solutions Academy 
+    blacktech twitter
+    the talent academy uncapped pto
+    Agile coding language 
+    

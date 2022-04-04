@@ -1,0 +1,21 @@
+.grid{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(195, 117, 117);
+    position: relative;
+}
+
+.doodler {
+    width: 60px;
+    height: 85px;
+    background-color: rgb(255, 191, 0);
+    /*background-image: url(/Module3/flappybird/shrek.png);*/
+    position: absolute;
+}
+
+.Platform {
+    width: 85px;
+    height: 15px;
+    background-color: rgb(128, 0, 79);
+    position: absolute;
+}
