@@ -53,7 +53,7 @@ function movePlatforms() {                               //
 
 function jump() {
     clearInterval(downTimerId)
-    upTimerId  = setInterval(function (){
+    upTimerId  = setInterval(function () {
         doodlerBottomSpace += 20
         doodler.style.bottom = doodlerBottomSpace + 'px'
         if (doodlerBottomSpace > 350) {
