@@ -105,9 +105,24 @@
  * Numbers divisible by 15 become fizz buzz
  */
 
-if (n / 3) % 0
-if (n * 5) % 0
+let num = 5
 
+function fizzbuzz (num) {
+    if (num % 15 === 0){
+    console.log('fizz buzz');
+    } else if (num % 5 === 0){
+        console.log('buzz') 
+    } else if (num % 3 === 0){
+        console.log('Fizz')
+    } else {
+        console.log(num)
+    }}
+
+    fizzbuzz(3)
+    fizzbuzz(5)
+    fizzbuzz(15)
+    fizzbuzz(20)
+    fizzbuzz(25)
 
 //==========================================================================================================
 
@@ -118,18 +133,18 @@ if (n * 5) % 0
  * when the seconds is above 5000 seconds.
  */
 
-function secCount (mins) {
-    mins = mins * 60
-    if (mins < 5000) {
-        console.log(["you don't have much time.."]) // works without the array brackets, just adding for green flare in console
-    } else {
-        console.log(["that is a lot of seconds, you have time to go to Morehouse!"]) // works without the array brackets, just adding for green flare in console
-    }
-}
+// function secCount (mins) {
+//     mins = mins * 60
+//     if (mins < 5000) {
+//         console.log(["you don't have much time.."]) // works without the array brackets, just adding for green flare in console
+//     } else {
+//         console.log(["that is a lot of seconds, you have time to go to Morehouse!"]) // works without the array brackets, just adding for green flare in console
+//     }
+// }
 
-secCount (5)
-secCount (10)
-secCount (5000)
+// secCount (5)
+// secCount (10)
+// secCount (5000)
 
 
 //Morning Algorithm Challenge 2
@@ -140,13 +155,13 @@ secCount (5000)
  * is a vowel or false if it is not. Print the object to 
  * the screen.
  */
- let vowels = ['a','e','i','o','u'];
- let numbers = [1,1,1,1,1]
- //let a, e, i, o, u;
- //[a,e,i,o,u] = [1,2,3,4,5]
+//  let vowels = ['a','e','i','o','u'];
+//  let numbers = [1,1,1,1,1]
+//  //let a, e, i, o, u;
+//  //[a,e,i,o,u] = [1,2,3,4,5]
 
- const letterVal = Object.assign(vowels,numbers);
- const [1,1,1,1,1] = letterVal
+//  const letterVal = Object.assign(vowels,numbers);
+//  const [1,1,1,1,1] = letterVal
  //let vowel = Object.assign({a:1},{e:1},{i:1},{o:1},{u:1})
  //let letters = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'];
  //const noVal = [0]
@@ -154,13 +169,13 @@ secCount (5000)
  //const totalVal = [letterNoVal + letterVal]
 
 
-function converter (letterVal) {
+// function converter (letterVal) {
 
-    if (letterVal = undefined) {
-        console.log(false)
-    } else {
-        console.log(true)
-    }
-}
+//     if (letterVal = undefined) {
+//         console.log(false)
+//     } else {
+//         console.log(true)
+//     }
+// }
 
-converter()
+// converter()

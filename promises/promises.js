@@ -1,3 +1,4 @@
+
 /**
  * :::::::::::::PROMISES::::::::::::
  * An object that represents the eventual completion of 
@@ -45,7 +46,6 @@
 // })
 
 
-
 fetch('https://anapioficeandfire.com/api/characters/583'),
 then(function (response) {
     return response.json();
@@ -53,6 +53,7 @@ then(function (response) {
     console.log(data);
 });
 
+import fetch from 'node-fetch'
 // //==========================================
 
 // fetch("https://anapioficeandfire.com/api/characters/583"), then(function(response) {
